@@ -1,0 +1,26 @@
+.botones-header {
+    color: white;
+    background: none;
+    border: 1px #f5f5f563 solid;
+    border-radius: 10px;
+    width: 200px;
+    padding: 10px;
+    cursor: pointer;
+    position: relative;
+    text-align: center;
+}
+
+.botones-header:hover {
+    background: #f5f5f563;
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+
+@media (max-width: 768px) {
+    .botones-header {
+        width: 100%;
+        margin-left: 0;
+        padding: 12px;
+    }
+}
+
